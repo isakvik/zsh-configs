@@ -6,7 +6,7 @@ zsh configs i want to keep around. included:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [lazygit lg()](https://github.com/jesseduffield/lazygit#changing-directory-on-exit)
 
-requires [antigen](https://github.com/zsh-users/antigen/).
+requires [antigen](https://github.com/zsh-users/antigen/) and [powerlevel10k](https://github.com/romkatv/powerlevel10k).
 
 since i'd rather use ctrl+c as a hotkey for copying, ctrl+c can be rebound using this command in .bashrc (fails in .zshrc):
 
