@@ -6,7 +6,7 @@ stty -ixon <$TTY >$TTY
 # rebind ctrl+c to ctrl+d
 # needs to be done before zsh init - CHECK .BASHRC
 
-# other key customizations with zle:
+# other key customizations with zle: (ref https://stackoverflow.com/a/68987551 )
 
 export KEY_CTRL_U=$'' 
 export KEY_CTRL_R=$''
